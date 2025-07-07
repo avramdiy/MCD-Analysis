@@ -8,7 +8,17 @@
 
 ### 1st Commit
 
+- Load data to HTML frame
+
 ### 2nd Commit
+
+- Create 3 routes to load separate dataframes, all dropping the OpenInt column
+
+- /mcd_1970s
+
+- /mcd_2000s
+
+- /mcd_2010s
 
 ### 3rd Commit
 
