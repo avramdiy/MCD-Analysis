@@ -22,6 +22,8 @@
 
 ### 3rd Commit
 
+- Create /mcd_1970s_high_low to visualize the High and Low prices from 1970 to 1980.
+
 ### 4th Commit
 
 ### 5th Commit
