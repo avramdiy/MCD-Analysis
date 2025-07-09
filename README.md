@@ -29,3 +29,5 @@
 - Create /mcd_2000s_high_low to visualize the High and Low prices from 2000 to 2010, covering the Dot-com crash, showing their performance in recession environments
 
 ### 5th Commit
+
+- Create /mcd_2010s_high_low to visualize the High and Low prices from 2010 to 2020, covering recovery & modernization.

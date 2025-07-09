@@ -104,6 +104,31 @@ def mcd_2000s_high_low():
 
     except Exception as e:
         return f"An error occurred while generating the plot: {e}"
+    
+@app.route('/mcd_2010s_high_low')
+def mcd_2010s_high_low():
+    try:
+        df = load_and_filter_data("2010-01-01", "2019-12-31")
+
+        plt.figure(figsize=(12, 6))
+        plt.plot(df['Date'], df['High'], label='High', color='red', linewidth=1.5)
+        plt.plot(df['Date'], df['Low'], label='Low', color='blue', linewidth=1.5)
+        plt.title("McDonald's High and Low Prices (2010–2019)", fontsize=16)
+        plt.xlabel('Date', fontsize=12)
+        plt.ylabel('Price', fontsize=12)
+        plt.legend()
+        plt.grid(True)
+
+        # Output to PNG
+        buf = io.BytesIO()
+        plt.savefig(buf, format='png')
+        buf.seek(0)
+        plt.close()
+
+        return Response(buf, mimetype='image/png')
+
+    except Exception as e:
+        return f"An error occurred while generating the plot: {e}"
 
 if __name__ == '__main__':
     app.run(debug=True)
