@@ -22,8 +22,10 @@
 
 ### 3rd Commit
 
-- Create /mcd_1970s_high_low to visualize the High and Low prices from 1970 to 1980.
+- Create /mcd_1970s_high_low to visualize the High and Low prices from 1970 to 1980, capturing their early growth phase as an IPO.
 
 ### 4th Commit
+
+- Create /mcd_2000s_high_low to visualize the High and Low prices from 2000 to 2010, covering the Dot-com crash, showing their performance in recession environments
 
 ### 5th Commit
